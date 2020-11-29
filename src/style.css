@@ -6,15 +6,18 @@ body{
 }
 
 .header{
-    background-color: antiquewhite;
-    margin-bottom: 40px;
+    background-color: rgb(22, 37, 109);
+    
+    
 }
 
 .servicios{
-    background-color: azure;
+    background-color:rgb(22, 37, 109);
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    color: white;
+    margin-bottom: 50px;
 }
 
 .noticias {
@@ -25,11 +28,15 @@ body{
 }
 
 .miembros {
-    background-color: burlywood;
+    background-color: rgb(22, 37, 109);
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    color: white;
+    padding-top: 10px;
 }
+    
+
 
 .footer{
     background-color: rosybrown;
@@ -42,28 +49,53 @@ body{
     display: flex; /* uno al laod del otro */
     align-items: center;
     height: 100px;
+    
+    
 }
 
-.titulo-principal .contenedor-menu{
+.titulo-principal, .contenedor-menu{
 width:50%;
+}
 
+.titulo-principal{
+    padding-left: 100px;
+    background-color: #E84A5F;
+    height: 100px;
+    color: white;
+    /* padding-top: 25px; */
+    width: 25%;
+    
+    
 }
 
 .contenedor-menu{
     display: flex;
+    padding-left: 150px;
+    height: 100px;
+    padding-top: 25px;
+    width: 75%;
 
 }
 
 .menu-principal{
     display: flex;
     list-style: none;
+    color: white;
 
+}
+.menu-prinicpal__item{
+    padding: 15px;
+    color: white;
+    
 }
 
 
-.menu-prinicpal__item >a:hover{
+
+.menu-prinicpal__item >a:hover,a:link, a:visited, a:active{
     font-size: 20px;
-    text-decoration: underline;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 
 }
 
@@ -83,9 +115,40 @@ width:50%;
 
 
 .servicios__contenedor{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 550px;
 
 }
 
 .noticia{
     display: flex;
 }
+
+.miembros__contenedor{
+
+    padding: 5px;
+    justify-content: center;
+    
+}
+.sectionTitle {   
+    background-color: white;
+    text-align: center;
+    margin: 0px;
+    
+   
+    
+}
+
+.sectionTitle h2:first-child{
+    margin-block-start: 4px;
+    margin-block-end: 4px;
+}
+.titulo-principal h1:first-child{
+    margin-top: 40px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+

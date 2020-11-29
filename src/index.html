@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera pagina web</title>
+    <title>Sprint 1</title>
     <link rel= "stylesheet" href="style.css">
 </head>
 <body>
 <!-- Inicio header -->
 <header class="header">
     <!-- menú -->
-    <section class="barra-superior">
-        <div class="titulo-principal">
-            <h1>Titulo principal</h1>
-        </div>
-        <nav class="contenedor-menu">
-            <ul class="menu-principal">
-            <li class="menu-prinicpal__item"><a href="#">Inicio</a></li>
-            <li class="menu-prinicpal__item"><a href="#services">Servicios</a></li>
-            <li class="menu-prinicpal__item"><a href="#news">Noticias</a></li>
-            <li class="menu-prinicpal__item"><a href="#team">Miembros</a></li>
-            </ul>
-        </nav>
+    
+        <section class="barra-superior">
+            
+            <div class="titulo-principal">
+                <h1>Workshop 1</h1>
+            </div>
+            <nav class="contenedor-menu">
+                <ul class="menu-principal">
+                <li class="menu-prinicpal__item"><a href="#">Inicio</a></li>
+                <li class="menu-prinicpal__item"><a href="#services">Servicios</a></li>
+                <li class="menu-prinicpal__item"><a href="#news">Noticias</a></li>
+                <li class="menu-prinicpal__item"><a href="#team">Miembros</a></li>
+                </ul>
+            </nav>
 
-    </section>
+        </section>
+    
     <!-- banner -->
     <section class="baner">
-        <h2 class="baner__titulo">Here goes an image</h2>
-        <img class="baner__imagen"src="https://placeimg.com/1200/300/any" alt="Imagen banner">
+        <!-- <h2 class="baner__titulo">Here goes an image</h2> -->
+        <img class="baner__imagen" src="./img/header.jpg" alt="Imagen banner">
     </section>
 
 </header>
@@ -35,22 +38,27 @@
 <!-- Inicio main -->
 <main>
     <!-- Servicios -->
-    <section id="services" class="servicios">
-        <div class="servicios__contenedor">
-            <img src="https://placeimg.com/300/400/animals" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde excepturi earum obcaecati hic quis, delectus omnis facilis voluptate accusantium reprehenderit porro labore deserunt. Eum tempora blanditiis officiis, sed fuga magnam!</p>
-            <a href="#">Abrri >></a>
+    <section id="services" >
+        <div class=sectionTitle>
+            <h2>Servicios</h2>
         </div>
-        <div class="servicios__contenedor">
-            <img src="https://placeimg.com/300/400/animals" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti velit delectus totam beatae ipsa cumque incidunt. Vitae eius molestiae enim sequi iusto! Autem tempore sapiente voluptas illum repellendus error at.</p>
-            <a href="#">Abrir >></a>
-        </div>
-        <div class="servicios__contenedor">
-            <img src="https://placeimg.com/300/400/animals" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa labore quas tempora sapiente expedita unde, explicabo dolore modi rerum aut temporibus tempore sit natus optio voluptates dolorum eos inventore ex.</p>
-            <a href="#">Abrir >></a>
+        <div class="servicios">
+            <div class="servicios__contenedor">
+                <img src="./img/AI.png" alt="Inteligencia artifical">
+                <p> inteligencia lista para usar en las aplicaciones y flujos de trabajo. Los servicios de IA se integran con facilidad con sus aplicaciones para ocuparse de casos de uso comunes.</p>
+                <a href="./construccion.html" target="_blank">Inteligencia Artificial</a>
+            </div>
+            <div class="servicios__contenedor">
+                <img src="./img/BI.png" alt="Business intelligence">
+                <p>Una solución de Business Intelligence garantiza la mejor forma de explotar y aportar valor a los datos de tu compañía.</p>
+                <a href="./construccion.html" target="_blank">Business intelligence</a>
+            </div>
+            <div class="servicios__contenedor">
+                <img src="./img/ML.png" alt="Machine Learning">
+                <p>Cree e implemente modelos de Machine Learning con rapidez usando herramientas que satisfagan sus necesidades, sea cual sea su nivel de conocimientos.</p>
+                <a href="./construccion.html" target="_blank">Machine Learning</a>
         </div> 
+    </div>
         
     </section>
     <!-- fin servicios -->
@@ -92,33 +100,39 @@
 
     </section>
 
-
-    <section id="team" class="miembros" >
-        <div>
-            <img src="https://placeimg.com/300/400/animals" alt="">
-            <h2>Nombre miembri</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat veritatis vitae ex voluptatum. Itaque ex cupiditate, inventore porro ab reiciendis non harum vel omnis iusto eaque, in aut minima accusamus?</p>
+    
+    <section id="team" >
+        <div class=sectionTitle>
+        <h2>Miembros</h2>
         </div>
-        <div>
-            <img src="https://placeimg.com/300/400/animals" alt="">
-            <h2>NNombre miembro</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam sapiente nemo, iure suscipit dignissimos rerum quam adipisci ea vitae, numquam accusamus exercitationem deserunt aliquam quasi, autem expedita perspiciatis similique perferendis.</p>
-        </div>
-        <div>
-            <img src="https://placeimg.com/300/400/animals" alt="">
-            <h2>Nombre miembro</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero harum sint veniam veritatis distinctio aliquam incidunt nostrum rerum dolorem temporibus consequatur aliquid provident, iste odit, facilis enim esse fuga molestias!</p>
-        </div>
-        <div>
-            <img src="https://placeimg.com/300/400/animals" alt="">
-            <h2>Nombre miembro</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem perferendis in cupiditate harum tenetur ullam alias recusandae consequuntur veniam, facilis, fuga officia unde. Animi ullam, sunt veniam eligendi adipisci similique.</p>
-        </div>
-        <div>
-            <img src="https://placeimg.com/300/400/animals" alt="">
-            <h2>Nombre miembro</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi atque quis beatae! Quidem dignissimos dolore harum vero rerum dolor atque. Cumque nulla cupiditate placeat vel vitae praesentium cum consequuntur. Eaque!</p>
-        </div>
+        <div  class="miembros"> 
+            <div class="miembros__contenedor">
+                <img src="./img/liza.png" alt="Liza Acevedo">
+                <h2>Liza Acevedo Leyva</h2>
+                <p><b>Edad:</b> 21 años</p>
+                <p><b>Institución Educativa:</b> Universidad de los Andes</p>
+                <p><b>Ocupación:</b> Estudiante Ing. Industrial</p>
+                <p>Me gusta patinar, salir a hacer trekking y tomar fotos, apasioanda por la tecnología y por los nuevos conocimientos.</p>
+            </div>
+            <div class="miembros__contenedor">
+                <img src="./img/edgar.png" alt="Edgar Farfán">
+                <h2>Edgar Farfán Chacón</h2>
+                <p><b>Edad:</b> 35 años</p>
+                <p><b>Institución Educativa:</b> UIS</p>
+                <p><b>Profesión:</b> Ingeniero metalúrgico</p>
+                <p>Me gusta pasar tiempo con mis hijos y mi familia, jugar videojuegos y salir a comer.</p>
+            </div>
+            <div class="miembros__contenedor">
+                <img src="./img/omar.png" alt="Omar Gonzalez">
+                <h2>Omar Gonzalez Reyes</h2>
+                <p><b>Edad:</b> 23 años</p>
+                <p><b>Institución Educativa:</b> Universidad de Antioquia</p>
+                <p><b>Profesión:</b> Ingeniero Mecánico</p>
+                <p>Me gusta hacer todo tipo de deportes: Nadar, correr, montar bicicleta y disfrutar de los espacios al aire libre.</p>
+            </div>
+           
+        </div>  
+       
 
     </section>
 
@@ -137,7 +151,7 @@
 
 </footer>
 
-Seccion miembro
+
 
 </body>
 </html>
