@@ -1,7 +1,7 @@
 # Autores
 
-Omar González Reyes
-Edgar Guillermo Farfán Chacón
+Omar González Reyes,
+Edgar Guillermo Farfán Chacón,
 Liza Alejandra Acevedo Leyva
 
 # Pasos para replicar el proyecto
