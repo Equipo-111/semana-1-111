@@ -25,7 +25,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    margin-bottom: 40px;
+    
     margin-top: 40px;
     color: white;
     padding-top: 1em;
@@ -46,10 +46,11 @@ body{
 
 
 .footer{
-    background-color: rosybrown;
+    background-color: #E84A5F;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    padding-top: 20px;
 }
 
 .barra-superior{
@@ -158,4 +159,30 @@ width:50%;
 a:link, a:visited, a:active {
     text-decoration:none;
 }
+
+.footer_right{
+    display: flex;
+    padding-right: 20px;  
+
+}
+.footer_right-item{
+    
+    width: 600px;
+}
+
+.footer_right{
+    width:50%;
+    }
+
+.footer_left-item{
+    width: 400px;
+}
+
+.footer_left{
+    width: 50%;
+    padding-left: 100px;
+    padding-bottom: 50px;
+} 
+
+
 
