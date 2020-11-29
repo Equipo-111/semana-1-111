@@ -1,3 +1,23 @@
+# Autores
+
+Omar González Reyes
+Edgar Guillermo Farfán Chacón
+Liza Alejandra Acevedo Leyva
+
+# Pasos para replicar el proyecto
+
+ 1. Realizar un mockup del sitio con las especificaciones dadas para cada sección.
+ 2. Descargar código en Github .zip
+ 3. Crear Work directory, copiar archivos del .zip e iniciar el reposiorio (git init).
+ 4. Crear un grupo de trabajo en Github.
+ 5. Sincronizar el local con remoto (git remote add nombre url).
+ 6. Subir cambios al grupo de trabajo de Github (git push -u nombre rama).
+ 7. Crear una rama para cada sección (Header, noticias, miembros, footer).
+ 8. Crear esqueleto HTML con las divisiones para las secciones.
+ 9. Agregar los requerimientos a cada una de las secciones (imágenes, link, texto).
+ 10. Utilizar las herramientas de style.css para modificar cada una de las secciones de la página web.
+ 11. Guardar cambios, subir y unir archivos en Github.
+ 
 # Proyecto final Sprint I
 
 Desarrollar un sitio web que conste de 5 secciones, cada sección deberá ser realizada por un estudiante. Los diferentes elementos del sitio web contarán con estilos personalizados creados por los estudiantes y deberán estar condensados en una sola hoja de estilos.
